@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="board_size">
+        <item>4 rows x 6 columns</item>
+        <item>5 rows x 10 columns</item>
+        <item>6 rows x 15 columns</item>
+    </string-array>
+
+    <string name="default_board_size">4 rows x 6 columns</string>
+
+    <string-array name="mine_size">
+        <item>6 mines</item>
+        <item>10 mines</item>
+        <item>15 mines</item>
+        <item>20 mines</item>
+    </string-array>
+
+    <string name="default_mine_size">6 mines</string>
+    
+</resources>

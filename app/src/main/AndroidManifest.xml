@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ca.cmpt276.as3">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.As3">
+
+        <activity
+            android:name=".HelpResourceActivity"
+            android:exported="true"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_help_resource"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.As3.NoActionBar" />
+        <activity
+            android:name=".GameActivity"
+            android:exported="true"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_game"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.As3.NoActionBar" />
+        <activity
+            android:name=".OptionsActivity"
+            android:exported="true"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_options"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.As3.NoActionBar" />
+        <activity
+            android:name=".HelpActivity"
+            android:exported="true"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_help"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.As3.NoActionBar" />
+        <activity
+            android:name=".MainMenuActivity"
+            android:exported="true"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_main_menu"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.As3.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.As3.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/arcadepixel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/startGameButton"
+        android:layout_width="210dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginBottom="230dp"
+        android:drawableLeft="@drawable/ic_pacman"
+        android:fontFamily="@font/press_start_2p"
+        android:text="@string/start_game"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:cornerRadius="@dimen/fab_margin"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/helpButton"
+        android:layout_width="213dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="258dp"
+        android:layout_marginBottom="30dp"
+        android:drawableLeft="@drawable/ic_baseline_help_24"
+        android:fontFamily="@font/press_start_2p"
+        android:text="@string/help"
+        android:textAlignment="center"
+        android:textSize="13sp"
+        app:cornerRadius="@dimen/fab_margin"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/optionsButton"
+        android:layout_width="211dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginBottom="20dp"
+        android:drawableLeft="@drawable/ic_arcade"
+        android:fontFamily="@font/press_start_2p"
+        android:text="@string/options"
+        android:textAlignment="center"
+        android:textSize="13sp"
+        app:cornerRadius="@dimen/fab_margin"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/backImage"
+        android:layout_width="468dp"
+        android:layout_height="452dp"
+        android:layout_marginStart="235dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_rectangle_24"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/menuPacMan"
+        android:layout_width="385dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="235dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/menupacman"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

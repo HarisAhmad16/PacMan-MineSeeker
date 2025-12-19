@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Pac-Man Finder</string>
+    <string name="title_activity_main_menu">Main Menu</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_options">Options</string>
+    <string name="title_activity_game">Game</string>
+    <string name="hyper_link">Created by Mohammad Haris Ahmad, student in Simon Fraser University, <a href="https://opencoursehub.cs.sfu.ca/bfraser/grav-cms/cmpt276/home">(https://opencoursehub.cs.sfu.ca/bfraser/grav-cms/cmpt276/home)</a></string>
+    <string name="title_activity_help_resource">Resources</string>
+    <string name="pac_man_is_lost_in_the_arcade_world">Pac-Man Is Lost In The Arcade World!</string>
+    <string name="find_all_the_pac_mans">Find All The Pac-Mans</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="creator_mohammad_haris_ahmad">Creator: Mohammad Haris Ahmad</string>
+    <string name="start_game">Start Game</string>
+    <string name="help">Help</string>
+    <string name="options">Options</string>
+    <string name="select_board_size">Select Board Size</string>
+    <string name="select_number_mines">Select Number Mines</string>
+    <string name="resource1">Main screen background image, by admin <a href="https://wallpaperboat.com/arcade-wallpapers">https://wallpaperboat.com/arcade-wallpapers</a></string>
+    <string name="resource2">Main menu background image, by Adobe Stock <a href="https://stock.adobe.com/ca/search?k=arcade">https://stock.adobe.com/ca/search?k=arcade</a></string>
+    <string name="resource3">Help and Resource background image, by Danny Paez <a href="https://www.inverse.com/gaming/npc-meaning-definition-origin-political">https://www.inverse.com/gaming/npc-meaning-definition-origin-political</a></string>
+    <string name="resource4">Options background image, by Ultimate Arcade <a href="https://www.ultimatearcadecabinets.co.uk/tron_legacy_arcade_cabinet.htm">https://www.ultimatearcadecabinets.co.uk/tron_legacy_arcade_cabinet.htm</a></string>
+    <string name="resource5">Game background image, by Unknown <a href="https://wall.alphacoders.com/big.php?i=416822">https://wall.alphacoders.com/big.php?i=416822</a></string>
+    <string name="resource6">Game Start Pac-Man and Mine icon, by Wikimedia Commons <a href="https://commons.wikimedia.org/wiki/File:Pacman.svg">https://commons.wikimedia.org/wiki/File:Pacman.svg</a></string>
+    <string name="resource7">Options Arcade icon, by OpenClipart <a href="https://freesvg.org/stevelambert-asteroids-arcade-game">https://freesvg.org/stevelambert-asteroids-arcade-game</a></string>
+    <string name="skip">skip</string>
+    <string name="how_to_play">How To Play:</string>
+    <string name="when_start_game_is_selected_click_on_the_boxes_to_look_for_a_pac_man_if_you_found_one_congrats_and_look_for_another_if_a_number_appears_you_have_started_a_scan_this_scan_shows_the_number_of_pac_man_located_in_that_row_or_column_you_may_also_click_on_a_found_pac_man_to_have_it_scan_the_row_and_column_for_more_hidden_ones">When Start Gameis selected, click on the boxes to look for a Pac-Man. If you found one, congrats and look for another! If a number appears, you have started a scan. This scan shows the number of Pac-Man located in that row or column. You may also click on a found Pac-Man to have it scan the row and column for more hidden ones.</string>
+    <string name="creator">Creator:</string>
+    <string name="resources">Resources:</string>
+    <string name="click_here_for_the_resources">Click here for the resources</string>
+
+</resources>

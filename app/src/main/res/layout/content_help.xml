@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="776dp"
+        android:layout_height="442dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/imagehelp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/howToPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="460dp"
+        android:layout_marginBottom="280dp"
+        android:fontFamily="@font/press_start_2p"
+        android:text="@string/how_to_play"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/howToPlayText"
+        android:layout_width="629dp"
+        android:layout_height="122dp"
+        android:layout_marginBottom="140dp"
+        android:text="@string/when_start_game_is_selected_click_on_the_boxes_to_look_for_a_pac_man_if_you_found_one_congrats_and_look_for_another_if_a_number_appears_you_have_started_a_scan_this_scan_shows_the_number_of_pac_man_located_in_that_row_or_column_you_may_also_click_on_a_found_pac_man_to_have_it_scan_the_row_and_column_for_more_hidden_ones"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/creator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="522dp"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="@font/press_start_2p"
+        android:text="@string/creator"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/resources"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="145dp"
+        android:layout_marginEnd="522dp"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="@font/press_start_2p"
+        android:text="@string/resources"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/creatorText"
+        android:layout_width="632dp"
+        android:layout_height="173dp"
+        android:layout_marginTop="130dp"
+        android:text="@string/hyper_link"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/resourceButton"
+        android:layout_width="323dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="310dp"
+        android:text="@string/click_here_for_the_resources"
+        app:cornerRadius="@dimen/fab_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
